@@ -1,11 +1,21 @@
 # Self driving cars using Neuroevolution of augmenting topologies
 
-### Game environment
-The environment is created using Pygame. The environment is available to try out in car_game.py. 
+### Usage
+Play the game: **car_game.py**
+Train the algorithm:  **car_train.py**
 
-Wall detection is done through ray-casting, it is not optimized and therefore quite slow for more than 30 rays.
+Some packages need to be installed. Mainly pygame and neat.
 
+### Environment
+The environment is created using Pygame. It is available to try out in **car_game.py**. 
 
+The map is drawn by hand. A mask of the track is obtained where the alpha-values change in the png.
+Wall detection is done through ray-casting and intersection with the mask, it is not optimized and therefore quite slow for many rays. 
+Although it works splendid for one car.
+
+### NEAT-Algorithm
+The NEAT package is used to implement the neat algorithm. A configuration file is included in the repository.
+It is a fully connected feed-forward network. The Topology of the network is changing as the network is training. 
 
 ## NOTES:
 #### Refactoring:
