@@ -17,4 +17,4 @@ Wall detection is done through ray-casting, it is not optimized and therefore qu
 * Add a sandbox mode where the terrain can be drawn.
 
 
-Sidenote: port to Unity?
+Sidenote: Rewrite in Unity?
