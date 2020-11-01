@@ -17,12 +17,12 @@ Although it works splendid for one car.
 The NEAT package is used to implement the neat algorithm. A configuration file is included in the repository.
 It is a fully connected feed-forward network. The Topology of the network is changing as the network is training. 
 
-## NOTES:
-#### Refactoring:
+#### NOTES:
+##### Refactoring:
 * Rewrite functions, each function should do one thing and one thing only
 * Optimize ray-casting, today it is very heavy computationaly
 
-### To Add:
+##### To Add:
 * Add game-menu in order to chose free play or train the algo
 * Add a sandbox mode where the terrain can be drawn.
 
